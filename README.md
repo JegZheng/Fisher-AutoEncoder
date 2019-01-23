@@ -19,7 +19,7 @@ The experiments can be run on the following datasets:
 1. Set-up your experiment in `experiment.py`.
 2. Run experiment:
 ```bash
-python experiment.py &lt your option &gt
+python experiment.py  <your option>
 ```
 ## Models
 The FAE is implemented in a VAE model with 5 intermediate layers. You can run it by setting `model_name` to `ConvVAE`.
