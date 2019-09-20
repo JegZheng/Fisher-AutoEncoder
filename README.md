@@ -32,12 +32,15 @@ You can also run a vanilla VAE, a one-layered VAE or a two-layered HVAE with the
 Please cite our paper if you use this code in your research:
 
 ```
-@article{zheng2018understanding,
+@inproceedings{zheng2019understanding,
   title={Understanding VAEs in Fisher-Shannon Plane},
-  author={Zheng, Huangjie and Yao, Jiangchao and Zhang, Ya and Tsang, Ivor W},
-  journal={arXiv preprint arXiv:1807.03723},
-  year={2018}
+  author={Zheng, Huangjie and Yao, Jiangchao and Zhang, Ya and Tsang, Ivor W and Wang, Jia},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={33},
+  pages={5917--5924},
+  year={2019}
 }
+
 ```
 
 ## Acknowledgments
