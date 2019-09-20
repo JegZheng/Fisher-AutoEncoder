@@ -1,6 +1,6 @@
 # VAE in Fisher-Shannon Plane and Fisher-AutoEncoder
 This is a PyTorch implementation of FAE. For mathmatical formulation and detailed description, please refer to paper:
-* Huangjie Zheng, Jiangchao Yao, Ya Zhang, Ivor W. Tsang and Jia Wang, Understanding VAEs in Fisher-Shannon Plane, [paper](https://arxiv.org/abs/1807.03723), 2018
+* Huangjie Zheng, Jiangchao Yao, Ya Zhang, Ivor W. Tsang and Jia Wang, [Understanding VAEs in Fisher-Shannon Plane](https://arxiv.org/abs/1807.03723), AAAI, 2019
 
 ## Requirements
 The code is compatible with:
@@ -24,7 +24,7 @@ python experiment.py  <your option>
 ## Models
 The FAE is implemented in a VAE model with 5 intermediate layers. You can run it by setting `model_name` to `ConvVAE`.
 
-Thanks to the implementation of J. M. Tomczak, 
+Thanks to the implementation of J. M. Tomczak,
 You can also run a vanilla VAE, a one-layered VAE or a two-layered HVAE with the standard prior or the VampPrior by setting `model_name` argument to either: (i) `vae` or `hvae_2level` for MLP, (ii) `convvae_2level` for convnets, (iii) `pixelhvae_2level` for (ii) with a PixelCNN-based decoder, and specifying `prior` argument to either `standard` or `vampprior`. Modifying the Fisher information computation in the function `calculate_loss` is sufficient.
 
 ## Citation
